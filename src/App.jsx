@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import * as Sentry from '@sentry/react';
 
 const App = () => {
-  return <button onClick={() => methodDoesNotExist()}>Break the world</button>;
+  
   return (
     <main className="bg-black">
       <Navbar />
